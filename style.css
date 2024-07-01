@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    /* background-color: black;
+    color: white; */
+}
+.margin{
+    margin: 5px;
+}
+.left{
+    width: 25vw;
+    padding: 14px;
+}
+.right{
+    width: 75vw;
+}
+.home{
+    padding: 20px;
+}
+.home ul li{
+    display: flex;
+    list-style: none;
+    width: 15px;
+    gap: 5px;
+    padding: 10px;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
