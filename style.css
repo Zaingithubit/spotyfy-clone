@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
+    font-family: "Roboto Condensed", sans-serif;
 }
 body{
     /* background-color: black;
@@ -16,9 +19,7 @@ body{
 .right{
     width: 75vw;
 }
-.home{
-    padding: 20px;
-}
+
 .home ul li{
     display: flex;
     list-style: none;
@@ -29,4 +30,31 @@ body{
 .bg-black{
     background-color: black;
     color: white;
+}
+.library{
+    min-height: 70vh;
+    position: relative;
+}
+
+.heading{
+    display: flex;
+    align-items: center;  
+    width: 100%; 
+    font-size: 13px; 
+}
+.heading img{
+width: 30px;
+padding: 12px 10px;
+}
+
+.footer{
+    display: flex;
+    color: gray;
+    font-size: 10px;
+    gap: 5px;
+    position: absolute;
+    bottom: 0px;
+}
+.footer a{
+    color: gray;
 }

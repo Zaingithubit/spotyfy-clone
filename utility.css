@@ -21,3 +21,9 @@
 .rounded{
     border-radius: 5px;
 }
+.p-1{
+    padding-top:10px ;
+}
+.m-1{
+    margin: 5px;
+}

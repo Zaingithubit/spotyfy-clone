@@ -1,28 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="utility.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="utility.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <div class="container flex bg-black">
-        <div class="left border">
-            <div class="home  bg-gray rounded">
-                <div class="logo"><img class="invert" src="logo.svg" alt="Spotify"></div>
-                <ul>
-                    <li><img class="invert" src="home.svg" alt="Home">Home</li>
-                    <li><img class="invert" src="search.svg" alt="searh">Search</li>
-                </ul>
-            </div>
-            <div class="library bg-gray">
-
-            </div>
-
+      <div class="left">
+        <div class="home bg-gray rounded p-1">
+          <div class="logo">
+            <img class="invert" src="logo.svg" alt="Spotify" />
+          </div>
+          <ul>
+            <li><img class="invert" src="home.svg" alt="Home" />Home</li>
+            <li><img class="invert" src="search.svg" alt="searh" />Search</li>
+          </ul>
         </div>
-        <div class="right  border"></div>
-    </div>    
-</body>
+        <div class="library bg-gray rounded p-1 m-1">
+          <div class="heading">
+            <img src="playlist.svg" class="invert" alt="playlist" />
+            <h2>Your library</h2>
+          </div>
+          <div class="footer">
+            <div>
+              <a
+                href="https://www.spotify.com/pk-en/legal/"
+                id=""
+                data-encore-id="textLink"
+              >
+                <span data-encore-id="type">Legal</span>
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://www.spotify.com/pk-en/safetyandprivacy/"
+                id=""
+                data-encore-id="textLink"
+              >
+                <span data-encore-id="type">Safety &amp; Privacy Center</span>
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://www.spotify.com/pk-en/legal/privacy-policy/"
+                id=""
+                data-encore-id="textLink"
+              >
+                <span data-encore-id="type">Privacy Policy</span>
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://www.spotify.com/pk-en/legal/cookies-policy/"
+                id=""
+                data-encore-id="textLink"
+              >
+                <span data-encore-id="type">Cookies</span>
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://www.spotify.com/pk-en/legal/privacy-policy/#s3"
+                id=""
+                data-encore-id="textLink"
+              >
+                <span data-encore-id="type">About Ads</span>
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://www.spotify.com/pk-en/accessibility/"
+                id=""
+                data-encore-id="textLink"
+              >
+                <span data-encore-id="type">Accessibility</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="right"></div>
+    </div>
+  </body>
 </html>
