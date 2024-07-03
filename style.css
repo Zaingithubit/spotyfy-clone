@@ -58,3 +58,44 @@ padding: 12px 10px;
 .footer a{
     color: gray;
 }
+
+.right{
+    margin: 14px 0px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(44 43 43);
+}
+
+.header > *{
+    padding: 15px;
+}
+
+.spotifyPlaylist{
+    padding: 16px;
+}
+
+.cardContainer{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.spotifyPlaylist .card{
+    width: 200px;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    background-color:rgb(44 43 43);
+    padding: 10px;
+    margin-top: 15px;
+}
+.card > *{
+    padding-top: 10px;
+    
+}
+.card img{
+    width: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
