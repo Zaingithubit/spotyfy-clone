@@ -1,101 +1,113 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
 
-*{
-    margin: 0px;
-    padding: 0px;
-    font-family: "Roboto Condensed", sans-serif;
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto Condensed", sans-serif;
 }
-body{
-    /* background-color: black;
+body {
+  /* background-color: black;
     color: white; */
 }
-.margin{
-    margin: 5px;
+.margin {
+  margin: 5px;
 }
-.left{
-    width: 25vw;
-    padding: 14px;
+.left {
+  width: 25vw;
+  padding: 14px;
 }
-.right{
-    width: 75vw;
-}
-
-.home ul li{
-    display: flex;
-    list-style: none;
-    width: 15px;
-    gap: 5px;
-    padding: 10px;
-}
-.bg-black{
-    background-color: black;
-    color: white;
-}
-.library{
-    min-height: 70vh;
-    position: relative;
+.right {
+  width: 75vw;
 }
 
-.heading{
-    display: flex;
-    align-items: center;  
-    width: 100%; 
-    font-size: 13px; 
+.home ul li {
+  display: flex;
+  list-style: none;
+  width: 15px;
+  gap: 5px;
+  padding: 10px;
 }
-.heading img{
-width: 30px;
-padding: 12px 10px;
+.bg-black {
+  background-color: black;
+  color: white;
 }
-
-.footer{
-    display: flex;
-    color: gray;
-    font-size: 10px;
-    gap: 5px;
-    position: absolute;
-    bottom: 0px;
-}
-.footer a{
-    color: gray;
+.library {
+  min-height: 70vh;
+  position: relative;
 }
 
-.right{
-    margin: 14px 0px;
+.heading {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: 13px;
 }
-.header{
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(44 43 43);
-}
-
-.header > *{
-    padding: 15px;
+.heading img {
+  width: 30px;
+  padding: 12px 10px;
 }
 
-.spotifyPlaylist{
-    padding: 16px;
+.footer {
+  display: flex;
+  color: gray;
+  font-size: 10px;
+  gap: 5px;
+  position: absolute;
+  bottom: 0px;
+}
+.footer a {
+  color: gray;
 }
 
-.cardContainer{
-    display: flex;
-    gap: 10px;
-    flex-wrap: wrap;
-    margin: 20px;
+.right {
+  margin: 14px 0px;
 }
-.spotifyPlaylist .card{
-    width: 200px;
-    /* border: 2px solid red; */
-    border-radius: 10px;
-    background-color:rgb(44 43 43);
-    padding: 10px;
-    margin-top: 15px;
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(44 43 43);
 }
-.card > *{
-    padding-top: 10px;
-    
+
+.header > * {
+  padding: 15px;
 }
-.card img{
-    width: 100%;
-    object-fit: contain;
-    border-radius: 10px;
+
+.spotifyPlaylist {
+  padding: 16px;
+}
+
+.cardContainer {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 25px;
+}
+.spotifyPlaylist .card {
+  width: 200px;
+  /* border: 2px solid red; */
+  border-radius: 10px;
+  background-color: rgb(44 43 43);
+  padding: 10px;
+  margin-top: 15px;
+  position: relative;
+}
+.card:hover .play {
+    opacity: 1;
+    top: 130px;
+  }
+.card > * {
+  padding-top: 10px;
+}
+.card img {
+  width: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+
+}
+.play {
+  position: absolute;
+  top: 244px;
+  right: 35px;
+  opacity: 0;
+  transition: all 1s ease-in-out;
 }
